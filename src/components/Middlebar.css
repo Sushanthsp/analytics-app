@@ -1,0 +1,23 @@
+.main
+{
+    flex: 1;
+    background-color: whitesmoke;
+}
+
+.main_body
+{
+    display:flex;
+    background-color: white;
+    height: 100vh;    
+}
+
+.middlebar{
+    background-color: aqua;
+    width: 70%;
+}
+
+.rightbar
+{
+    background-color: blue;
+    width: 30%;
+}

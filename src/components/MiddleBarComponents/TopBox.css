@@ -1,0 +1,28 @@
+.container
+{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 80%;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 15px;
+}
+
+.text
+{
+    padding: 10px;
+}
+
+.img > img 
+{
+    object-fit: contain;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.button
+{
+    margin-left: 120px ;
+}

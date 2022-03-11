@@ -3,3 +3,8 @@
   font-family: fantasy;
 }
 
+.app_body
+{
+  display: flex;
+}
+

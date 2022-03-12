@@ -1,0 +1,7 @@
+.horizontalBar
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 5px 0;
+}

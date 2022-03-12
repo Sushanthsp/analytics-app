@@ -12,7 +12,7 @@
 }
 
 .middlebar{
-    background-color: aqua;
+   
     width: 70%;
 }
 
@@ -20,4 +20,14 @@
 {
     background-color: blue;
     width: 30%;
+}
+
+.rank
+{
+  margin-bottom: 5px;  
+}
+
+.bottom
+{
+    margin-top: 5px;
 }

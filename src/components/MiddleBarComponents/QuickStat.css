@@ -1,46 +1,39 @@
-.container
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 120px;
-    width: 90%;
-    border: 2px solid #EBF0F5;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 15px;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 120px;
+  width: 90%;
+  border: 2px solid #ebf0f5;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 15px;
 }
 
-div.fStat
-{
-    display: flex;
-    align-items: center;
+div.fStat {
+  display: flex;
+  align-items: center;
 }
 
-div.numbers
-{
-    display: flow-root;
-    padding-left: 10px;
+div.numbers {
+  display: flow-root;
+  padding-left: 10px;
 }
 
-.icon
-{
-    margin-right: 10px;
+.icon {
+  margin-right: 10px;
 }
 
-.bottom
-{
-    color: #616e7c;
+.bottom {
+  color: #616e7c;
 }
 
-.rank
-{
-    text-align: start; 
+.rank {
+  text-align: start;
 }
 
-.h
-{
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 50px;
+.h {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 50px;
 }

@@ -1,12 +1,10 @@
-.horizontalBar
-{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    margin: 5px 0;
+.horizontalBar {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 5px 0;
 }
 
-.horizontalBar > h4
-{
-    color: #576575;
+.horizontalBar > h4 {
+  color: #576575;
 }

@@ -8,7 +8,7 @@ const Container = Styled.div`
   }
 
   progress[value] {
-    width: ${props => props.width};
+    width: ${(props) => props.width};
 
     -webkit-appearance: none;
     appearance: none;
@@ -23,7 +23,7 @@ const Container = Styled.div`
   progress[value]::-webkit-progress-value {
     height: 12px;
     border-radius: 20px;
-    background-color: ${props => props.color};
+    background-color: ${(props) => props.color};
   }
 `;
 
@@ -31,7 +31,7 @@ const ProgressBar = ({ value, max, color, width }) => {
   return (
     <Container color={color} width={width}>
       <progress value={value} max={max} />
-      <span style={{color:color}}>{(value / max) * 100}%</span>
+      <span style={{ color: color }}>{(value / max) * 100}%</span>
     </Container>
   );
 };
@@ -40,13 +40,13 @@ ProgressBar.propTypes = {
   value: PropTypes.number.isRequired,
   max: PropTypes.number,
   color: PropTypes.string,
-  width: PropTypes.string
+  width: PropTypes.string,
 };
 
 ProgressBar.defaultProps = {
   max: 100,
   color: "lightBlue",
-  width: "250px"
+  width: "250px",
 };
 
 export default ProgressBar;

@@ -1,41 +1,35 @@
-.gcontainer
-{
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    width: 90%;
-    border: 2px solid #EBF0F5;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 15px;
-    margin-bottom: 50px;
+.gcontainer {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 90%;
+  border: 2px solid #ebf0f5;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 15px;
+  margin-bottom: 50px;
 }
 
-div.gStat
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+div.gStat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-div.gnumbers
-{
-    display: flow-root;
-    padding-left: 10px;
+div.gnumbers {
+  display: flow-root;
+  padding-left: 10px;
 }
-.gbottom
-{
-    max-width: 400px;
-    text-align: start;
-    color: #949fa8;
+.gbottom {
+  max-width: 400px;
+  text-align: start;
+  color: #949fa8;
 }
 
-.grank
-{
-    text-align: start;
+.grank {
+  text-align: start;
 }
 
-.gicon
-{
-    margin-right: 30px;
+.gicon {
+  margin-right: 30px;
 }

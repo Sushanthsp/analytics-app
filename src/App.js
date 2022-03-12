@@ -8,19 +8,19 @@ import { UpdateState } from "./components/Context/updateContext";
 function App() {
   return (
     <UpdateState>
-    <Router>
-      <div className="App">
-        <Header />
+      <Router>
+        <div className="App">
+          <Header />
 
-        <div className="app_body">
-          <SidebarLeft />
-          <Routes>
-            <Route exact path="/" element={<Middlebar />} />
-          </Routes>
+          <div className="app_body">
+            <SidebarLeft />
+            <Routes>
+              <Route exact path="/" element={<Middlebar />} />
+            </Routes>
+          </div>
         </div>
-      </div>
       </Router>
-      </UpdateState>
+    </UpdateState>
   );
 }
 

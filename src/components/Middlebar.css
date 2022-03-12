@@ -1,56 +1,46 @@
-.main
-{
-    flex: 1;
-    background-color: whitesmoke;
-    border-left: 2px solid #EBF0F5;
+.main {
+  flex: 1;
+  background-color: whitesmoke;
+  border-left: 2px solid #ebf0f5;
 }
 
-.main_body
-{
-    display:flex;
-    background-color: white;
-       
+.main_body {
+  display: flex;
+  background-color: white;
 }
 
-.middlebar{ 
-    width: 65%;
+.middlebar {
+  width: 65%;
 }
 
-.rightbar
-{
-    background-color: rgb(249, 249, 255);
-    width: 35%;
+.rightbar {
+  background-color: rgb(249, 249, 255);
+  width: 35%;
 }
 
-.rank
-{
-  margin-bottom: 5px;  
+.rank {
+  margin-bottom: 5px;
 }
 
-.bottom
-{
-    margin-top: 5px;
+.bottom {
+  margin-top: 5px;
 }
 
-.middlebar > p
-{
-    text-align: start;
-    color: #949FA8;
-    margin-left: 5px;
+.middlebar > p {
+  text-align: start;
+  color: #949fa8;
+  margin-left: 5px;
 }
 
-.rightbar >  h3
-{
-    text-align: start;
-    margin-top: 25px;
+.rightbar > h3 {
+  text-align: start;
+  margin-top: 25px;
 }
 
-.sidBar
-{
-    margin-top: 50px;
+.sidBar {
+  margin-top: 50px;
 }
 
-.doughnut
-{
-    margin-top: 80px;
+.doughnut {
+  margin-top: 80px;
 }

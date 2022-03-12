@@ -4,10 +4,10 @@
     align-items: center;
     justify-content: space-around;
     height: 120px;
-    width: 80%;
-    border: 2px solid black;
+    width: 90%;
+    border: 2px solid #EBF0F5;
     margin: auto;
-    margin-top: 90px;
+    margin-top: 50px;
     border-radius: 15px;
 }
 
@@ -23,4 +23,24 @@ div.numbers
     padding-left: 10px;
 }
 
+.icon
+{
+    margin-right: 10px;
+}
 
+.bottom
+{
+    color: #616e7c;
+}
+
+.rank
+{
+    text-align: start; 
+}
+
+.h
+{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 50px;
+}

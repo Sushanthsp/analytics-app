@@ -2,13 +2,13 @@
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 400px;
-    width: 80%;
-    border: 2px solid black;
+    height: 500px;
+    width: 90%;
+    border: 2px solid #EBF0F5;
     margin: auto;
-    margin-top: 90px;
+    margin-top: 50px;
     border-radius: 15px;
+    margin-bottom: 50px;
 }
 
 div.gStat
@@ -22,4 +22,20 @@ div.gnumbers
 {
     display: flow-root;
     padding-left: 10px;
+}
+.gbottom
+{
+    max-width: 400px;
+    text-align: start;
+    color: #949fa8;
+}
+
+.grank
+{
+    text-align: start;
+}
+
+.gicon
+{
+    margin-right: 30px;
 }

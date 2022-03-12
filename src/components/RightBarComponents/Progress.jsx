@@ -15,13 +15,13 @@ const Container = Styled.div`
   }
 
   progress[value]::-webkit-progress-bar {
-    height: 15px;
+    height: 12px;
     border-radius: 20px;
     background-color: #eee;
   }  
 
   progress[value]::-webkit-progress-value {
-    height: 15px;
+    height: 12px;
     border-radius: 20px;
     background-color: ${props => props.color};
   }
@@ -31,7 +31,7 @@ const ProgressBar = ({ value, max, color, width }) => {
   return (
     <Container color={color} width={width}>
       <progress value={value} max={max} />
-      <span>{(value / max) * 100}%</span>
+      <span style={{color:color}}>{(value / max) * 100}%</span>
     </Container>
   );
 };

@@ -5,3 +5,8 @@
     flex-direction: column;
     margin: 5px 0;
 }
+
+.horizontalBar > h4
+{
+    color: #576575;
+}

@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./TopBox.css";
-import Box from "@mui/material/Box";
-import Modal from "@mui/material/Modal";
 import Button from "@mui/material/Button";
+import Modals from "./Modal";
 
 function TopBox() {
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => {
+    setOpen(false);
+  };
   return (
     <div>
       <div className="container">
         <div className="text">
-          
           <div className="img">
             <img
               src="https://e7.pngegg.com/pngimages/840/443/png-clipart-html-5-logo-web-development-html-css3-canvas-element-web-design-w3c-html5-logo-miscellaneous-text-thumbnail.png"
@@ -19,12 +22,14 @@ function TopBox() {
 
           <div className="middleP">
             <h3>Hypertext Markpup language</h3>
-            <p>Hypertext Markpup language Hypertext Markpup language</p>
+            <p>Question: 08 | Duration: 15mins | Submitted on 05 June 2021</p>
           </div>
-
         </div>
         <div className="button">
-          <Button variant="contained">Update</Button>
+          <Button onClick={handleOpen} variant="contained">
+            Update
+          </Button>
+          {open && <Modals open={open} handleClose={handleClose} />}
         </div>
       </div>
     </div>

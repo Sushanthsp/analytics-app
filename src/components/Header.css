@@ -3,8 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 140px;
-    border-bottom: 2px solid #576574;
+    height: 90px;
+    border-bottom: 2px solid #EBF0F5
+    ;
 }
 
 .headerLeft > img
@@ -17,15 +18,16 @@
 .headerRight
 {
     display: flex;
-    padding-right: 90px;
+    padding-right: 50px;
 }
 
 .profile
 {
     display: flex;
-    height: 80px;
-    width: 350px;
-    border: 2px solid #576574;
+    height: 60px;
+    width: 300px;
+    border: 2px solid #EBF0F5
+    ;
     align-items: center;
     justify-content: space-around;
     border-radius: 12px;
@@ -33,5 +35,5 @@
 
 .profile > h3
 {
-    font-size: xx-large;
+    font-size: x-large;
 }

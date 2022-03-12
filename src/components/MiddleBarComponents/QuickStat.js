@@ -1,22 +1,31 @@
 import React from "react";
 import "./QuickStat.css";
-import Button from "@mui/material/Button";
+import { useContext ,useEffect} from "react";
+import { UpdateContext } from "../Context/updateContext";
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import NotesSharpIcon from '@mui/icons-material/NotesSharp';
+import CheckBoxSharpIcon from '@mui/icons-material/CheckBoxSharp';
 
 function QuickStat() {
+
+  const { rank, percentile, score,setScores } = useContext(UpdateContext);
+
   return (
     <div>
-      <div className="container">
+      <div className="topCon">
+        <h3 className="h">Quick Statistics</h3>
+        <div className="container">
         <div className="Stat">
         <div className="fStat">
             <div className="icon">
-              <Button variant="contained">icon</Button>
+             <EmojiEventsIcon/>
             </div>
             <div className="numbers">
               <h2 className="rank">
-                567
+                {rank}
               </h2>
               <h4 className="bottom">
-               rank
+               YOUR RANK
               </h4>
             </div>
           </div>
@@ -24,14 +33,14 @@ function QuickStat() {
         <div className="Stat">
         <div className="fStat">
             <div className="icon">
-              <Button variant="contained">icon</Button>
+              <NotesSharpIcon/>
             </div>
             <div className="numbers">
               <h2 className="rank">
-                567
+                {percentile}
               </h2>
               <h4 className="bottom">
-               rank
+              PERCENTILE
               </h4>
             </div>
           </div>
@@ -39,19 +48,21 @@ function QuickStat() {
         <div className="Stat">
         <div className="fStat">
             <div className="icon">
-              <Button variant="contained">icon</Button>
+              <CheckBoxSharpIcon/>
             </div>
             <div className="numbers">
               <h2 className="rank">
-                567
+                {score}/15
               </h2>
               <h4 className="bottom">
-               rank
+               CORRECT ANSWERS
               </h4>
             </div>
           </div>
         </div>
       </div>
+      </div>
+      
     </div>
   );
 }

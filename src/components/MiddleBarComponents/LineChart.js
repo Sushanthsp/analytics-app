@@ -4,13 +4,22 @@ import { Line } from "react-chartjs-2";
 import { useContext } from "react";
 import { UpdateContext } from "../Context/updateContext";
 
+var options = {
+  plugins: {
+    legend: {
+      display: false,
+    }
+  },
+}
 
 function LineChart() {
-
+  
   const { percentile } = useContext(UpdateContext);
+ 
+  const lab = ["0%", "20%", "40%", "60%", "80%", "100%"]
   
 const data = {
-  labels: ["0%","20%","40%","60%","80%","100%"],
+  labels: lab,
   datasets: [
     {
       label: "Percentile",
@@ -24,7 +33,7 @@ const data = {
   return (
     <div>
       <div className="graph">
-      <Line data={data} />
+      <Line data={data} options={options} />
       </div>
     </div>
   );

@@ -5,14 +5,24 @@ import { Doughnut } from "react-chartjs-2";
 import { useContext } from 'react';
 import { UpdateContext } from '../Context/updateContext';
 
+
+const options = {
+  plugins: {
+    legend: {
+      display: false,
+    },
+  }
+};
+
 function DougnutChart() {
-  const {  score } = useContext(UpdateContext);
+  const { score } = useContext(UpdateContext);
+  
+  
   const data = {
-    labels: ["0%","20%","40%","60%","80%","100%"],
     datasets: [
       {
         label: "Percentile",
-        data: [100-score,score+30],
+        data: [15,score],
         fill: true,
         backgroundColor:["#438af6","#edf2fe"]
       }
@@ -36,7 +46,7 @@ function DougnutChart() {
       </h4>
         </div>
       </div>
-      <Doughnut data={data}/>
+      <Doughnut data={data} options={options} />
     </div>
   )
 }

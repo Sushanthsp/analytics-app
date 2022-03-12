@@ -1,13 +1,13 @@
 import React from "react";
 import "./QuickStat.css";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { UpdateContext } from "../Context/updateContext";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import NotesSharpIcon from "@mui/icons-material/NotesSharp";
 import CheckBoxSharpIcon from "@mui/icons-material/CheckBoxSharp";
 
 function QuickStat() {
-  const { rank, percentile, score, setScores } = useContext(UpdateContext);
+  const { rank, percentile, score } = useContext(UpdateContext);
 
   return (
     <div>

@@ -1,0 +1,25 @@
+.gcontainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    width: 80%;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 15px;
+}
+
+div.gStat
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.gnumbers
+{
+    display: flow-root;
+    padding-left: 10px;
+}

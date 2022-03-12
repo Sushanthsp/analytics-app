@@ -2,6 +2,8 @@ import React from "react";
 import "./Middlebar.css";
 import TopBox from "./MiddleBarComponents/TopBox";
 import QuickStat from "./MiddleBarComponents/QuickStat";
+import ComparisionGraph from "./MiddleBarComponents/ComparisionGraph";
+
 
 function Middlebar() {
   return (
@@ -9,7 +11,8 @@ function Middlebar() {
       <div className="main_body">
         <div className="middlebar">
           <TopBox />
-          <QuickStat/>
+          <QuickStat />
+          <ComparisionGraph/>
         </div>
 
         <div className="rightbar">

@@ -15,12 +15,12 @@ const options = {
 
 function DougnutChart() {
   const { score } = useContext(UpdateContext);
-
+ 
   const data = {
     datasets: [
       {
         label: "Percentile",
-        data: [15, score],
+        data: [15-score, score],
         fill: true,
         backgroundColor: ["#438af6", "#edf2fe"],
       },

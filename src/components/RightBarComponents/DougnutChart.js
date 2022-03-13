@@ -22,7 +22,7 @@ function DougnutChart() {
         label: "Percentile",
         data: [ score,15-score],
         fill: true,
-        backgroundColor: [ "#edf2fe","#438af6"],
+        backgroundColor: [ "#438af6","#edf2fe"],
       },
     ],
   };

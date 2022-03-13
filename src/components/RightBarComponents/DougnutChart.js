@@ -20,7 +20,7 @@ function DougnutChart() {
     datasets: [
       {
         label: "Percentile",
-        data: [15-score, score],
+        data: [ score,15-score],
         fill: true,
         backgroundColor: [ "#edf2fe","#438af6"],
       },

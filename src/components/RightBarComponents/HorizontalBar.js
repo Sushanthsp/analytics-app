@@ -6,7 +6,7 @@ function HorizontalBar({ value, color, text }) {
   return (
     <div className="horizontalBar">
       <h4>{text}</h4>
-      <ProgressBar color={color} width={"250px"} value={value} max={100} />
+      <ProgressBar color={color} width={"150px"} value={value} max={100} />
     </div>
   );
 }

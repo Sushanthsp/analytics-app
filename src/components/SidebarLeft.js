@@ -17,8 +17,44 @@ function SidebarLeft() {
             title="Skill Test"
           />
           <SidebarOption Icon={EmojiEventsIcon} title="Internships" />
+          <SidebarOption Icon={DashboardIcon} title="Dashboard" />
+          <SidebarOption
+            Icon={WorkspacePremiumOutlinedIcon}
+            selected="true"
+            title="Skill Test"
+          />
+          <SidebarOption Icon={EmojiEventsIcon} title="Internships" />
+          <SidebarOption Icon={DashboardIcon} title="Dashboard" />
+          <SidebarOption
+            Icon={WorkspacePremiumOutlinedIcon}
+            selected="true"
+            title="Skill Test"
+          />
+          <SidebarOption Icon={EmojiEventsIcon} title="Internships" />
+          <SidebarOption Icon={DashboardIcon} title="Dashboard" />
+          <SidebarOption
+            Icon={WorkspacePremiumOutlinedIcon}
+            selected="true"
+            title="Skill Test"
+          />
+          <SidebarOption Icon={EmojiEventsIcon} title="Internships" />
+          <SidebarOption Icon={DashboardIcon} title="Dashboard" />
+          <SidebarOption
+            Icon={WorkspacePremiumOutlinedIcon}
+            selected="true"
+            title="Skill Test"
+          />
+          <SidebarOption Icon={EmojiEventsIcon} title="Internships" />
+          <SidebarOption Icon={DashboardIcon} title="Dashboard" />
+          <SidebarOption
+            Icon={WorkspacePremiumOutlinedIcon}
+            selected="true"
+            title="Skill Test"
+          />
+          <SidebarOption Icon={EmojiEventsIcon} title="Internships" />
         </div>
       </div>
+      
     </div>
   );
 }

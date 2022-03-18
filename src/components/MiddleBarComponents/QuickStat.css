@@ -1,4 +1,14 @@
-
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 120px;
+  width: 90%;
+  border: 2px solid #ebf0f5;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 15px;
+}
 
 div.fStat {
   display: flex;

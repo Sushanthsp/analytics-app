@@ -10,16 +10,12 @@
 }
 
 .middlebar {
-  width: 75%;
-  max-height: 90vh;
-  overflow: scroll;
+  width: 65%;
 }
 
 .rightbar {
   background-color: rgb(249, 249, 255);
-  width: 25%;
-  max-height: 500px;
-    overflow: scroll;
+  width: 35%;
 }
 
 .rank {
@@ -30,8 +26,19 @@
   margin-top: 5px;
 }
 
+.middlebar > p {
+  text-align: start;
+  color: #949fa8;
+  margin-left: 5px;
+}
+
+.rightbar > h3 {
+  text-align: start;
+  margin-top: 25px;
+}
+
 .sidBar {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .doughnut {
